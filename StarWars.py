@@ -5,6 +5,7 @@ class Jedi:
 class Sith:
     def alignment(self):
         return 'chaotic evil'
+
 class Anakin(Sith, Jedi):
     def alignment(self):
         return print("Anakin is", super().alignment())
